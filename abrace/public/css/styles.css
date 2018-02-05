@@ -1,0 +1,438 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600i|Oswald:600');
+@import url('https://fonts.googleapis.com/css?family=Croissant+One');
+
+/*nuevo detalles*/
+
+
+.background2{
+  background-image:url('/img/s3.jpg');
+  padding:  10px;
+}
+
+.banner{
+  font-family: 'Croissant One', cursive;
+}
+
+.letra{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#01A9DB;
+}
+
+/* Laravel */
+html, body {
+  background-color: #fff;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  color: Black !important;
+}
+
+.navbar-trans {
+  transition: all 2.5s ease;
+}
+
+.body{
+  position: relative;
+  color: Black !important;
+}
+
+.title{
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+/*fin laravel*/
+
+#sec1{
+  margin-top: -50px;
+}
+
+/*Font Google*/
+.oswald{
+font-family: 'Oswald', sans-serif;
+}
+
+/* font end */
+a:active{ color: #000000; text-decoration: none}
+
+/*NavBar*/
+.hide{
+  display: none;
+}
+
+.jumbotron{
+  padding-top:0px;
+  color: white !important;
+  padding-top:65px;
+  margin: -15px;
+  background-color: #171717;
+
+}
+
+#no{
+padding-top:10px;
+width: 550px;
+max-width: 100%;
+height: 600px;
+border-radius: 5%;
+  -webkit-box-shadow: -1px 10px 44px -2px rgba(0,0,0,0.47);
+  -moz-box-shadow: -1px 10px 44px -2px rgba(0,0,0,0.47);
+  box-shadow: -1px 10px 44px -2px rgba(0,0,0,0.47);
+}
+
+/* end navbar*/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* BIENVENIDO IMG */
+
+.mainImg{
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+.blur{
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+
+section{
+  min-height: auto;
+}
+
+
+#btn{
+  border-radius: 0px;
+}
+
+
+
+.btnNav:hover{
+  border: 1.2px solid blue;
+  color: tomato;
+  -webkit-transition: background-color 0.1s, border 0.1s;
+  -moz-transition:background-color 0.1s, border 0.1s;
+  -o-transition:background-color 0.1s, border 0.1s;
+}
+.btnStar{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  margin-top: 1%;
+  -webkit-transition: background-color 0.5s, border 0.5s;
+  -moz-transition:background-color 0.5s, border 0.5s;
+  -o-transition:background-color 0.5s, border 0.5s;
+  cursor:pointer;
+}
+
+.btnStar:hover{
+  background-color: white;
+  border: 5px solid white;
+  color: tomato;
+  -webkit-transition: background-color 0.5s, border 0.5s;
+  -moz-transition:background-color 0.5s, border 0.5s;
+  -o-transition:background-color 0.5s, border 0.5s;
+}
+
+.carousel-item{
+  width: 100%;
+  height: 480px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*finPresentacion*/
+
+/*corredores*/
+.top-30{
+  margin-top:30px;
+}
+.top-60{
+  margin-top:60px;
+}
+.top-100{
+  margin-top:100px;
+}
+hr{
+  border-color: white;
+}
+
+
+
+.top-30{
+  margin-top:30px;
+}
+.puntero{
+  cursor: pointer;
+}
+.corredores{
+
+}
+
+.image {
+  margin: auto;
+  border-radius: 47%;
+  display: block;
+  width: 38%;
+  height: auto;
+  transition: .5s ease;
+  height: 60%;
+  backface-visibility: hidden;
+  -webkit-box-shadow: 2px -1px 53px -15px rgba(167,176,111,1);
+  -moz-box-shadow: 2px -1px 53px -15px rgba(167,176,111,1);
+  box-shadow: 2px -1px 53px -15px rgba(167,176,111,1);
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(132,215,240,1)), color-stop(100%, rgba(255,255,255,1)));
+  background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+  background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+  background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(132,215,240,1) 50%, rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1 );
+}
+/*Fin corredores */
+
+
+.main-container{
+  margin-top: 30px;
+}
+
+.img-circle{
+  border-radius: 100%;
+}
+
+/*Fin Home*/
+
+/* Footer*/
+.footer {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+
+	float:left;
+	padding:50px;
+  color: White !important;
+	width:100%;
+	float:left;
+	clear:both;
+	box-shadow:0px 2px 2px #000;
+		-moz-box-shadow:0px 2px 2px #000;
+		-webkit-box-shadow:0px 2px 2px #000;
+	border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+        background: #2f2f2f; /* Old browsers */
+        background: -moz-linear-gradient(top,  #2f2f2f 0%, #242424 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2f2f2f), color-stop(100%,#242424)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  #2f2f2f 0%,#242424 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  #2f2f2f 0%,#242424 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f2f', endColorstr='#242424',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+/* animaciones */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fast {
+  -webkit-animation-duration: 0.4s;
+  animation-duration: 0.4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+#title{
+  font-size: 5em;
+  text-align: center;
+  padding-top: 100px;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+
+.texto0{
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.texto1{
+  font-weight: bold;
+  color: black !important;
+}
+
+
+.texto2{
+  font-size: 19px;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  font-weight: bold;
+  color: black !important;
+}
+
+.texto1{
+  font-size: 1.1em;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  font-weight: bold;
+}
+
+.texto3{
+  font-size: 19px;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  font-weight: bold;
+  color: black !important;
+
+}
+
+.btn-outline-success {
+
+  font-size: 1em;
+  font-weight: bold;
+
+}
+
+
+p{
+  font-weight: bold;
+}
+
+
+/*jefe*/
+
+.texto0{
+  font-weight: bold;
+  color: White;
+}
+
+.texto1{
+  font-weight: bold;
+  color: White;
+}
+.texto2{
+  font-size: 1.1em;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  font-weight: bold;
+  color: White;
+}
+
+.texto1{
+  font-size: 1.1em;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  font-weight: bold;
+  color: White;
+}
+.texto3{
+  font-size: 1.2em;
+  -webkit-animation-duration: 0.4s;
+  -webkit-animation-delay: 0.4s;
+  -webkit-animation-iteration-count: 1;
+  font-weight: bold;
+  color: White;
+}
+.corre{
+  color: black;
+  font-weight: bold;
+}
+
+h1{
+  color: black;
+
+}
+
+/*estilo de la welcome */
+
+.jumbotron{
+
+}
+
+#nosotros{
+  font-size: 17px;
+}
+#empresa{
+  font-size: 17px;
+}
+#servicios{
+  font-size: 17px;
+}
+
+#grandeLetra{
+  font-size: 1.4em;
+}
+
+.texto1{
+  color: white;
+}
+
+
+.display-3{
+  color: White !important;
+
+}
+
+.btn-warning{
+  font-size: 1em;
+  font-weight: bold;
+}
+
+#corredor{
+  width: 15em; height: 15em;
+}
+
+  /* admin */
+.w270{
+  width: 0px
+}
